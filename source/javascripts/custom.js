@@ -83,4 +83,11 @@ $(function(){
     });
   });
 
+  $(window).scroll(function(e) {
+    var s = $(window).scrollTop(),
+      opacityVal = (s / 150.0);
+
+    $('.blurred-image').css('opacity', opacityVal);
+  });
+
 });
