@@ -80,6 +80,20 @@
   box-shadow: 0 0 8px rgba(100 , 100, 100, .7);
 }
 
+.social-icon-list a {
+  float: left;
+  margin-right: 20px;
+  opacity: 0.3;
+}
+
+.col-md-offset-3 {
+  margin-left: 25%;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
 body {
   background-attachment: scroll;
   background-clip: border-box;
