@@ -1,0 +1,3 @@
+[submodule ".themes/reynard"]
+	path = .themes/reynard
+	url = https://github.com/hyfather/reynard.git
